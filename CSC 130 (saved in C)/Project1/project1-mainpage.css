@@ -1,0 +1,81 @@
+h3 {
+	margin-left:10px;
+	text-align:center;
+	font-size:35px;
+	color:#F37509;
+}
+
+p {
+	margin-left: 20px;
+	text-align:center;
+	font-size:25px;
+	color:#6AF309;
+}
+
+li {
+	list-style: none;
+	margin-left: 20px;
+	text-align:center;
+	font-size:22px;
+	color:#09E8F3;
+}
+
+h1 {
+	text-align:center;
+	color:#F70669;
+}
+body {
+	padding:20px;
+	background-image: url(Childe.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.navbar {
+	list-style: none;
+	padding: 0;
+	background-color: #1FF7C1;
+	
+	display:flex;
+	flex-flow:row wrap;
+	justify-content: space-around;
+}
+
+@media all and (max-width: 800px) {
+	.navbar {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+	}
+}
+
+@media all and (max-width: 600px) {
+	.navbar {
+		flex-direction: column;
+	}
+	
+	li{
+		text-align:center;
+		border:5px solid (to bottom right,#F04726,#2692F0);
+		font-weight:bold;
+	}
+}
+
+a {
+	text-decoration: none;
+	display: block;
+	padding: 15px;
+	color: purple;
+}
+
+a:hover{
+	background-color:#FFD700;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+

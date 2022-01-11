@@ -1,0 +1,83 @@
+h3 {
+	margin-left:10px;
+	text-align:center;
+	font-size:35px;
+	color:#F37509;
+}
+
+p {
+	margin-left: 20px;
+	text-align:center;
+	font-size:25px;
+	color:#1DF2A7;
+}
+
+li {
+	list-style: none;
+	margin-left: 20px;
+	text-align:center;
+	font-size:22px;
+	color:#09E8F3;
+}
+
+h1 {
+	text-align:center;
+	color:#F70669;
+}
+
+body {
+	padding:20px;
+	background-image: url(Currency.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.title {
+	margin-left:auto;
+    border-bottom: 1px solid darkgray;
+    margin-bottom: 5px;
+    color:white;
+}
+
+.container {
+    margin:auto;
+    color:white;
+}
+
+td {
+    vertical-align: top;
+    padding: 10px;
+    color:white;
+}
+
+.item {
+  border-bottom: 1px solid darkgray;
+  margin-bottom: 5px;
+}
+
+.input {
+	margin:auto;
+    border: 1px solid black;
+    background: url(Codes.jfif);
+    background-position: center;
+    text-align:center;
+    padding: 100px;
+    width: 500px;
+}
+
+img {
+  border: 1px solid black;
+  width: 500px;
+}
+
+#output {
+    display:none;
+	margin:auto;
+    border: 1px solid black;
+    text-align:center;
+    background: url(Codes.jfif);
+    background-position: center;
+    padding: 90px;
+    width: 500px;
+}

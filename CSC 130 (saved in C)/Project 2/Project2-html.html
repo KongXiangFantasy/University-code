@@ -1,0 +1,55 @@
+<html>
+<head>
+	<title>Yu's ExchangeRate Finder</title>
+	<script src="project2-js.js" defer></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<link href="project2-css.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+    <div class="body">
+	 <h1>Welcome to ExchangeRate finder!</h1>
+	 <p>Website used: rapidapi.com</p>
+	</div>
+	
+	<div class="about">
+		<h3>About</h3>
+		<p>Several input boxes are provided below. Feel free to enter the currency you want to find,<br>
+		Then the website will pop up the Rate and the most valuable currency. (Only shows USD, CNY, EUR, TTD and USZ)
+		</p>
+	</div>
+	
+	<div class="input">
+        <div class="title">Enter currencie ID below:</div>
+	        <div class="container">
+		        <div class="item">Currency Name:<input type="text" id="currencyName" placeholder="example: USD"></div>
+		        <div class="item"><button onclick="submit()">Submit</button></div>
+				<div class="item"><button onclick="clean()">clean</button></div>
+	        </div>
+        </div>
+
+        <br><br>
+
+    <div id="output">
+    <div class="title">Result Rate:</div>
+	    <table>
+		    <tr><td>USD:</td><td id="resultUSD"></td></tr>
+		    <tr><td>CNY:</td><td id="resultCNY"></td></tr>
+			<tr><td>EUR:</td><td id="resultEUR"></td></tr>
+			<tr><td>TTD:</td><td id="resultTTD"></td></tr>
+		    <tr><td>ZMW:</td><td id="resultZMW"></td></tr>
+	    </table>
+		<img id="ratingImg">
+		</div>
+    </div>
+	
+	<br><br>
+	<div id="raw">
+    </div>
+	
+	<div class="contact">
+		<h3>Contact</h3>
+		<p>If you have any questions, please contact me at 1-604-710-3648
+		</p>
+	</div>
+</body>
+</html>
